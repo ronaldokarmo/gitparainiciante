@@ -5,7 +5,7 @@ app.get('/', (req, res) =>{
     res.status(200).send({ message: 'Olá mundo, estou funcionando!'})
 });
 
-app.get('/novarota', (req, res) =>{
+app.get('/novarotab', (req, res) =>{
     res.status(200).send({ message: 'Nova rota!'})
 });
 
